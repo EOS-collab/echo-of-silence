@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Echo of Silence — новости</title>
+<style>
+  /*
+    This page is shown inside the launcher, in a WebView2 panel about 660 px
+    wide - and it is also a normal web page anybody can open. Both, without two
+    layouts: one column, generous margins, nothing that needs to be wide.
+
+    Edit this file, push it, and every launcher shows the new text on next start.
+    No new launcher build is involved, which is the whole reason the news lives
+    here rather than inside the program.
+  */
+
+  :root { color-scheme: dark; }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 44px 40px 60px;
+    background: #0b0c0e;
+    color: #e6e7ea;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.65;
+    max-width: 780px;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0 0 4px;
+  }
+
+  .tagline { color: #8a8f98; font-size: 13px; margin-bottom: 36px; }
+
+  article {
+    border: 1px solid #24272d;
+    border-left: 2px solid #c8792b;
+    border-radius: 3px;
+    background: #14161a;
+    padding: 20px 24px;
+    margin-bottom: 18px;
+  }
+
+  article h2 {
+    font-size: 16px;
+    margin: 0 0 4px;
+    color: #f0f1f3;
+    font-weight: 600;
+  }
+
+  .date {
+    color: #6e737b;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  article p { margin: 0 0 10px; color: #b9bdc4; font-size: 13.5px; }
+  article p:last-child { margin-bottom: 0; }
+
+  article ul { margin: 0 0 10px; padding-left: 20px; color: #b9bdc4; font-size: 13.5px; }
+  article li { margin-bottom: 4px; }
+
+  strong { color: #e6e7ea; font-weight: 600; }
+
+  .banner {
+    border: 1px dashed #2e3238;
+    border-radius: 3px;
+    padding: 18px 22px;
+    margin: 26px 0 0;
+    color: #6e737b;
+    font-size: 12.5px;
+  }
+
+  .banner a { color: #c8792b; text-decoration: none; }
+  .banner a:hover { text-decoration: underline; }
+
+  footer { margin-top: 34px; color: #55595f; font-size: 11.5px; }
+</style>
+</head>
+<body>
+
+  <h1>ECHO OF SILENCE</h1>
+  <div class="tagline">Выживание в мёртвой Москве</div>
+
+  <article>
+    <h2>Рукопашный бой переехал на захваты движения</h2>
+    <div class="date">23 сентября 2026 · версия 0.9.1</div>
+
+    <p>
+      Бой больше не играет чем попало. Раньше хук был замахом блока, входящим
+      с 0,86 секунды, а удара ногой в игре не существовало вовсе — ногу вело
+      решение уравнений по мировым точкам, кадр за кадром. Теперь у каждого удара
+      свой захват: семь штук.
+    </p>
+
+    <ul>
+      <li><strong>Боевая стойка.</strong> После первого удара корпус идёт вперёд, таз опускается, руки поднимаются к лицу. Держится, пока идёт бой.</li>
+      <li><strong>Новая связка.</strong> Правый тактический — обманка с малым уроном и быстрым возвратом. Левый сильный — тот, что должен попасть: шаг вперёд и на треть метра дальше. Затем хук, затем удар ногой.</li>
+      <li><strong>Связка только на скорость.</strong> Жмёшь без пауз — летит вся связка. С задержками — каждый удар снова начинается с тактического.</li>
+      <li><strong>Бой вплотную.</strong> Ближе метра прямые бесполезны, и связка сама становится другой: короткий джеб и локоть.</li>
+      <li><strong>Добивание.</strong> Если противнику остался один удар — иногда вместо него уходит серия коленей с апперкотом. Он не встаёт.</li>
+      <li><strong>Уворот</strong> на Alt — теперь настоящий пивот с уходом с линии.</li>
+      <li><strong>Вес рук.</strong> Рука проскакивает стойку на возврате и притягивается пружиной, грудь отдаёт при попадании, а на пустой выносливости всё это тяжелеет.</li>
+    </ul>
+
+    <p>
+      Время контакта каждого удара не выдумано: клипы обмерены по кадрам, по
+      выносу кулака от таза. Хук бьёт в челюсть, потому что в захвате кулак идёт
+      на 34 см выше таза, а удар ногой — в грудь, потому что стопа идёт на 23.
+    </p>
+  </article>
+
+  <article>
+    <h2>Появился лаунчер</h2>
+    <div class="date">23 сентября 2026</div>
+
+    <p>
+      Обновления теперь приходят сами. Лаунчер сверяет файлы по контрольным
+      суммам и качает только то, что изменилось: правка ассетов — это пара
+      мегабайт, а не вся игра заново.
+    </p>
+
+    <p>
+      Если связь оборвётся посреди обновления, игра останется рабочей — файлы
+      подменяются только после того, как всё скачано и проверено.
+    </p>
+  </article>
+
+  <div class="banner">
+    Место под объявление или баннер. Правится в этом же файле —
+    <a href="https://github.com">ссылка</a>, картинка или что угодно ещё.
+  </div>
+
+  <footer>
+    Страница читается лаунчером из сети. Без интернета он показывает свою
+    встроенную заглушку и спокойно запускает игру.
+  </footer>
+
+</body>
+</html>

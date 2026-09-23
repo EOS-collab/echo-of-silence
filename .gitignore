@@ -1,0 +1,6 @@
+# Files staged for a release. They go to Releases, never into git: the largest is
+# 314 MB and git refuses anything over 100 MB.
+upload/
+
+# Local scratch
+*.log
