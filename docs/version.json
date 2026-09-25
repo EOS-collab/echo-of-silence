@@ -1,185 +1,189 @@
 {
-    "version":  "0.9.1",
+    "version":  "0.10.0",
     "released":  "2026-09-25",
-    "base_url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1",
+    "base_url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0",
     "news_url":  "https://EOS-collab.github.io/echo-of-silence/",
     "launch":  "EchoOfSilence.exe",
-    "headline":  "Рукопашный бой на мокапе",
+    "headline":  "Бой переписан по Skyrim, у выжившего появилось тело",
     "changes":  [
-                    "Семь анимаций рукопашного боя на моушен-мэтчинге",
-                    "Стойка, блок и уклон больше не сбиваются спринтом",
-                    "Починена загрузка ассетов по имени в Shipping-сборке",
-                    "Размер сборки уменьшен с 1135 до 581 МБ"
+                    "У выжившего теперь есть тело: рубашка, джинсы, подсумки, кепка — вместо манекена",
+                    "Рукопашный бой переписан начисто: ЛКМ — правая рука, ПКМ — левая, бить можно непрерывно",
+                    "Силовой удар на удержании кнопки: вдвое больше урона и единственный стаггер, доступный голым рукам",
+                    "Направление силового выбирается в момент удара: W — рывок вперёд, S — с отходом, A и D — уход вбок",
+                    "Двойная силовая на двух кнопках сразу: три быстрых удара за половину цены",
+                    "Скрытная атака из приседа со спины бьёт вдвое",
+                    "Добивание с замедлением времени: с половины здоровья противник уже не встаёт",
+                    "Убраны блок, парирование, уклон, удары ногами и клинч — в рукопашном бою Skyrim их нет"
                 ],
     "prune":  false,
     "files":  [
                   {
                       "path":  "EchoOfSilence.exe",
-                      "size":  171520,
-                      "sha256":  "8F73AB9C4F0F6189A17824024B26AF9A99223FEED59D59598C2049002D410990",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence.exe"
+                      "size":  182784,
+                      "sha256":  "99378E6E64A0BB257BF92D724F7DF12BC925106E3C18302AA66AE129B0651530",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence.exe"
                   },
                   {
                       "path":  "Manifest_NonUFSFiles_Win64.txt",
                       "size":  1634,
-                      "sha256":  "24F7D22A09381B1917DB09122ACE39E767B20E1DEEC17769FDD576906001FBA6",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Manifest_NonUFSFiles_Win64.txt"
+                      "sha256":  "A7187D08E28E98D6DB120C636A50D89C9688A33F89B825B04CF1240DF0911153",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Manifest_NonUFSFiles_Win64.txt"
                   },
                   {
                       "path":  "Manifest_UFSFiles_Win64.txt",
-                      "size":  1051087,
-                      "sha256":  "EAA381F7088B4AFDAE56456AD9969962628405C223F5C908E65A73776076AF92",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Manifest_UFSFiles_Win64.txt"
+                      "size":  1075991,
+                      "sha256":  "3F8BB26B9D0B4CD2124195CF10100DA03EBE0312F48565D5DF9229575F2596D8",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Manifest_UFSFiles_Win64.txt"
                   },
                   {
                       "path":  "NOTICES.txt",
                       "size":  111,
                       "sha256":  "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/NOTICES.txt"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/NOTICES.txt"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/EchoOfSilence-Win64-Shipping.exe",
-                      "size":  173225984,
-                      "sha256":  "DBC4DF88D8C24EDAC8514780F93A3FC254C5B1EE9E7A96B48CFB068C4522758A",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__EchoOfSilence-Win64-Shipping.exe"
+                      "size":  173273088,
+                      "sha256":  "31DE8E8DA550AA942A8A9A6642F1E4EA1A5BC1AAD2329EBADEBF55E7C190B230",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__EchoOfSilence-Win64-Shipping.exe"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/tbb12.dll",
                       "size":  342456,
                       "sha256":  "69C9C37C3175C4146F287B8C832D3B5C2050B770C9CD26F8ACAC2BA449372E9A",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__tbb12.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__tbb12.dll"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/tbbmalloc.dll",
                       "size":  117176,
                       "sha256":  "A70C98E717EA7C1B3806E643A3DF2E7A40AB1827A1096EAB53731E4E2C5D92B5",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__tbbmalloc.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__tbbmalloc.dll"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/D3D12/x64/D3D12Core.dll",
                       "size":  4831768,
                       "sha256":  "9734A9719F44AF1F67B668A3513D55289D610ECF2FC10A389C91BDDCAC42EAF2",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__D3D12__x64__D3D12Core.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__D3D12__x64__D3D12Core.dll"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
                       "size":  4943344,
                       "sha256":  "20CA160D9B47AE5CDC016202C2A0F81691E6C240F59DF29B7C952B86986D747E",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__D3D12__x64__d3d12SDKLayers.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__D3D12__x64__d3d12SDKLayers.dll"
                   },
                   {
                       "path":  "EchoOfSilence/Binaries/Win64/DML/x64/DirectML.dll",
                       "size":  18538488,
                       "sha256":  "1A84C43657B71D5587385CDB97C2751B5B7D532F8E4BA8DBA5D73748415E4E49",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Binaries__Win64__DML__x64__DirectML.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Binaries__Win64__DML__x64__DirectML.dll"
                   },
                   {
                       "path":  "EchoOfSilence/Content/Paks/EchoOfSilence-Windows.pak",
-                      "size":  11418181,
-                      "sha256":  "9BD3CEDE1A9A57DE0244AB012FB3BB3FCF4DA33CE6E6A06E1EF083A76868BDD8",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.pak"
+                      "size":  11420229,
+                      "sha256":  "25EE195BE08F71DEA6FE9051395D263542F40BCDF1F95221D42EE89A51F431B0",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.pak"
                   },
                   {
                       "path":  "EchoOfSilence/Content/Paks/EchoOfSilence-Windows.ucas",
-                      "size":  329594176,
-                      "sha256":  "9ECE0DDBD373F7B0872B4C30A7B043F2CBAE853048ED1F7A01344669AC873A05",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.ucas"
+                      "size":  420077040,
+                      "sha256":  "49C8E75ED3BD28F6105D47DC3DD59D01CEB03351B8299792AC49E5E7EBA1F204",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.ucas"
                   },
                   {
                       "path":  "EchoOfSilence/Content/Paks/EchoOfSilence-Windows.utoc",
-                      "size":  581485,
-                      "sha256":  "07C20525453107AE6DC442B241279296072CA433DE5FB4ED9A6F099CF37B130F",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.utoc"
+                      "size":  628995,
+                      "sha256":  "4BB6C9117BF0E666BDD17FC59CEFE33195CBB244C190C6485CD6515E70D34D9A",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Content__Paks__EchoOfSilence-Windows.utoc"
                   },
                   {
                       "path":  "EchoOfSilence/Content/Paks/global.ucas",
-                      "size":  3525184,
-                      "sha256":  "4EFE1C222552029ADA3EDB9ABCCE7C87AC071D6649ED25DBC208C864E0D75C7E",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Content__Paks__global.ucas"
+                      "size":  3526320,
+                      "sha256":  "8BEA7E0AF5F88C110065B7B54BFD707FB93B12F2C7FFBF03FCDFE8F91CC0D88D",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Content__Paks__global.ucas"
                   },
                   {
                       "path":  "EchoOfSilence/Content/Paks/global.utoc",
                       "size":  842,
-                      "sha256":  "C1B7644CC7F51A496B96CC167C6E5F588E841BEB5E959D03A0507832FE80C1D9",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/EchoOfSilence__Content__Paks__global.utoc"
+                      "sha256":  "4FA46ADDEDC72B4E8FEB5D028AA9E4F7284D83DBCCA9C997DCC513C5663D0CB7",
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/EchoOfSilence__Content__Paks__global.utoc"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
                       "size":  2232688,
                       "sha256":  "0E7BF6483C6E021B74860FA69B272B8CBB3D37154FA832E650D9ECD066447D2B",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__DbgHelp__dbghelp.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__DbgHelp__dbghelp.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
                       "size":  2547080,
                       "sha256":  "4A45BB092EF8358253DA6FFB33609839961582843761F4B35FBDE6FAEB8B3500",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__MsQuic__v220__win64__msquic.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__MsQuic__v220__win64__msquic.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
                       "size":  5799016,
                       "sha256":  "343403805CBE0A9671385C762F2AEDE14CCC2D7A822B768F2EA0CE54B4B50EB6",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__NVIDIA__NVaftermath__Win64__GFSDK_Aftermath_Lib.x64.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__NVIDIA__NVaftermath__Win64__GFSDK_Aftermath_Lib.x64.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
                       "size":  59832,
                       "sha256":  "3B49A6B1C8E9F877E78F5E17BE5756E43D480149898D1CA70E7989E0CC7D0F63",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__Ogg__Win64__VS2015__libogg_64.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__Ogg__Win64__VS2015__libogg_64.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
                       "size":  48568,
                       "sha256":  "8B9CDA6EFA49C91F66DCA10067965A1DC83E8778F05863159873E60F25D6A7E0",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__Vorbis__Win64__VS2015__libvorbisfile_64.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__Vorbis__Win64__VS2015__libvorbisfile_64.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
                       "size":  1724856,
                       "sha256":  "0BC486ED509EE87995C712F82688F147E5481997101B3CA96DC6731FB87EFA74",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__Vorbis__Win64__VS2015__libvorbis_64.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__Vorbis__Win64__VS2015__libvorbis_64.dll"
                   },
                   {
                       "path":  "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
                       "size":  858144,
                       "sha256":  "A9E31476088B8B07A00B82C04DE85E6B02C3671DEAE73AE8DE502C6393505355",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Binaries__ThirdParty__Windows__XAudio2_9__x64__xaudio2_9redist.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Binaries__ThirdParty__Windows__XAudio2_9__x64__xaudio2_9redist.dll"
                   },
                   {
                       "path":  "Engine/Config/StagedBuild_EchoOfSilence.ini",
                       "size":  3,
                       "sha256":  "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Config__StagedBuild_EchoOfSilence.ini"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Config__StagedBuild_EchoOfSilence.ini"
                   },
                   {
                       "path":  "Engine/Content/Renderer/TessellationTable.bin",
                       "size":  259568,
                       "sha256":  "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Content__Renderer__TessellationTable.bin"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Content__Renderer__TessellationTable.bin"
                   },
                   {
                       "path":  "Engine/Content/Slate/Cursor/invisible.cur",
                       "size":  326,
                       "sha256":  "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Content__Slate__Cursor__invisible.cur"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Content__Slate__Cursor__invisible.cur"
                   },
                   {
                       "path":  "Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
                       "size":  11751688,
                       "sha256":  "0A3248C3DAD4584FC675009F974A70B9CC2F1F01F7C27DCC99149FA0FEB29E64",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Extras__Redist__en-us__vc_redist.arm64.exe"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Extras__Redist__en-us__vc_redist.arm64.exe"
                   },
                   {
                       "path":  "Engine/Extras/Redist/en-us/vc_redist.x64.exe",
                       "size":  18569648,
                       "sha256":  "683EB551F9AAD96760561B773C141A570E932C9C30078C33C6FF3E7CFC0E3DC2",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Extras__Redist__en-us__vc_redist.x64.exe"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Extras__Redist__en-us__vc_redist.x64.exe"
                   },
                   {
                       "path":  "Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
                       "size":  17339384,
                       "sha256":  "8EBBD55909E8AC94A0CC25282108E2371A56E1A060A82863C0D631415FC7855B",
-                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.9.1/Engine__Plugins__NNE__NNERuntimeORT__Binaries__ThirdParty__Onnxruntime__Win64__onnxruntime.dll"
+                      "url":  "https://github.com/EOS-collab/echo-of-silence/releases/download/v0.10.0/Engine__Plugins__NNE__NNERuntimeORT__Binaries__ThirdParty__Onnxruntime__Win64__onnxruntime.dll"
                   }
               ]
 }
